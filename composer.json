@@ -1,0 +1,19 @@
+{
+    "name": "pintu/customfield",
+    "description": "customfiled plugin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pintukalasva",
+            "email": "pintu1997.kalasva@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Customfield\\": "src/"
+        }
+    }
+}
