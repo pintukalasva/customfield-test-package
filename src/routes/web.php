@@ -2,7 +2,7 @@
 	
 	$namespace = "Customfield\Http\Controllers";
 	use Illuminate\Http\Request;
-	Route::group(['namespace' => $namespace, 'prefix' => 'customfield' , 'as' => 'customfield.'], function(){
+	Route::group(['namespace' => $namespace, 'prefix' => 'customfields' , 'as' => 'customfields.'], function(){
 		Route::get('index' , "CustomFieldsController@index")->name('index');
 		Route::get('getdata' , "CustomFieldsController@getdata")->name('getdata');
 		Route::get('create' , "CustomFieldsController@create")->name('create');
