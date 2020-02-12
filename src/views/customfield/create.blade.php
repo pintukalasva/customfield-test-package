@@ -1,9 +1,9 @@
 @extends('customfield::app')
 @section('content')
 <section class="content-header">
-  <h1>
+  <h3>
     Add Custom Field
-  </h1>
+  </h3>
 </section>
 
 <div class="content">
@@ -108,10 +108,10 @@
             </div>
           </div>
         </div>
-		<div class="form-group">
-           <input type="submit" name="submit" value="submit">
-            <a  class="btn btn-default"><i class="fa fa-times"></i> Cancel</a>
-          </div>
+		    <div class="form-group">
+           <button type="submit" class="btn btn-primary btn-flat"><i class="fa fa-check"></i> Create</button>
+          <a href="{{ route('customfield.index') }}" class="btn btn-default"><i class="fa fa-times"></i> Cancel</a>
+        </div>
       </form>
     </div>
   </div>

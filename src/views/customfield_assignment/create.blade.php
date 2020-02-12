@@ -2,9 +2,9 @@
 
 @section('content')
 <section class="content-header">
-  <h1>
+  <h3>
     Add Custom Field Assignment
-  </h1>
+  </h3>
 </section>
 <div class="content">
   <div class="box box-primary">

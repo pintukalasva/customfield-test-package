@@ -1,13 +1,10 @@
 @extends('customfield::app')
 @section('content')
 <section class="content-header">
-  <h1>
+  <h3>
       Custom Fields Assignment
-  </h1>
-  <ol class="breadcrumb" >
-    <a href="{{ route('customfields_assignment.create') }}" class="btn btn-primary btn-flat">Add Custom Field Assignment</a>
-  </ol>
-
+      <a href="{{ route('customfields_assignment.create') }}" class="btn btn-primary btn-flat">Add CustomField Assignment</a>
+  </h3>
 </section>
 
 <section class="content" style="margin-top: 20px;">
@@ -22,13 +19,13 @@
       <!-- general form elements -->
       <div class="box box-primary">
         <div class="box-body">
-            <table id="example" class="display" style="width:100%">
+            <table id="example" class="table table-bordered display" style="width:100%">
         <thead>
             <tr>
                 <th>Sr.No</th>
                 <th>CustomField ID</th>   
                 <th>Model</th>
-                <th>Action</th>
+                <th colspan="2">Action</th>
                 
             </tr>
         </thead>

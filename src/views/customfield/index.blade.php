@@ -1,12 +1,10 @@
 @extends('customfield::app')
 @section('content')
 <section class="content-header">
-  <h1>
+  <h3>
     	Custom Fields
-  </h1>
-  <ol class="breadcrumb" >
-    <a href="{{ route('customfield.create') }}" class="btn btn-primary btn-flat">Add Custom Field</a>
-  </ol>
+      <a href="{{ route('customfield.create') }}" class="btn btn-primary btn-flat">Add Custom Field</a>
+  </h3>
 
 </section>
 
@@ -22,7 +20,7 @@
       <!-- general form elements -->
       <div class="box box-primary">
         <div class="box-body">
-            <table id="example" class="display" style="width:100%">
+            <table id="example" class="table table-bordered display" style="width:100%">
         <thead>
             <tr>
                 <th>Sr.No</th>
